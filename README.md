@@ -1,50 +1,70 @@
 # Project SI Java
 
-Course repository for a Java backend project prepared with a clean Gradle setup and an initial testing scaffold.
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Java](https://img.shields.io/badge/Java-21-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat&logo=gradle&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit%205-25A162?style=flat&logo=junit5&logoColor=white)
 
-This repository is not a finished product yet. It currently shows the project foundation and the development workflow that will support the next iterations.
+Java backend project scaffold prepared with Gradle, Java 21 and JUnit 5.
+This repository currently focuses on clean project setup, test readiness and the initial structure for a layered backend application.
 
-## Current Status
+## Current Scope
 
-The repository already contains:
-
-- a Gradle wrapper and build configuration
-- a Java 21 toolchain setup
-- an application entry point
-- a JUnit 5 test scaffold
-- a project backlog in `BACKLOG.md`
-
-## Goals
-
-- build a clean backend structure
-- practice collaborative Git workflow
-- prepare controller, service and repository layering
-- add automated tests and clearer technical documentation
+- Gradle wrapper and build configuration
+- Java 21 toolchain setup
+- Application entry point
+- JUnit 5 test scaffold
+- Backlog file to track project evolution
 
 ## Tech Stack
 
-- Java 21
-- Gradle
-- JUnit 5
+| Technology | Usage |
+|---|---|
+| Java 21 | Application language |
+| Gradle | Build automation |
+| JUnit 5 | Test scaffold |
+| Git | Version control |
 
-## Repository Structure
+## Goals
 
-- `app/src/main/java/com/esieeit/projetsi/App.java`: current entry point
-- `app/src/test/java/com/esieeit/projetsi/AppTest.java`: test scaffold
-- `BACKLOG.md`: project backlog and next steps
+- Build a cleaner backend architecture
+- Practice layered project organization
+- Add more business logic and tests
+- Improve documentation and maintainability
 
 ## Run Locally
 
 ```bash
+# Run tests
 ./gradlew test
+
+# Run the application
 ./gradlew run
 ```
 
-## Why Keep This Repository Public
+## Repository Structure
 
-Even at an early stage, it shows useful engineering habits:
+```text
+project/
+├── app/
+│   ├── src/main/java/com/esieeit/projetsi/App.java
+│   └── src/test/java/com/esieeit/projetsi/AppTest.java
+├── BACKLOG.md
+├── gradlew
+├── settings.gradle
+└── README.md
+```
 
-- project bootstrapping with Gradle
-- versioned backlog and documentation
-- test-first project setup
-- preparation for a more structured backend architecture
+## Why This Repository Matters
+
+Even in its current state, this project shows useful engineering habits:
+
+- reproducible Java setup
+- test-oriented initialization
+- clean build tooling
+- preparation for a more structured backend project
+
+## Author
+
+**Miroslav**  
+GitHub: [Wingsy7](https://github.com/Wingsy7)
